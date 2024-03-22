@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1710037324 source:c:\users\lucas\desktop\algoritmos\palindromo\main.cpp
+	<iostream>
+	<cstring>
+
