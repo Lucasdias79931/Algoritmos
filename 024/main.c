@@ -26,8 +26,18 @@ int main(){
     int n = 0;
     int nCincoPrimos[5] = {0,0,0,0,0};
 
-    printf("Digite o valor de N(No máximo até 100): ");
-    scanf("%d", &n);
+    while (true)
+    {
+       printf("Digite o valor de N(No máximo até 100): ");
+       scanf("%d", &n);
+
+       if(n<=0 || n>100){
+        printf("\nPor favor, numeros no intervalo [0,100]\n");
+       }else{
+        break;
+       }
+    }
+    
 
 
 
