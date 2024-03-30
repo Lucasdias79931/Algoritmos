@@ -11,7 +11,7 @@ string inverte(string entrada) {
         entrada[i] = entrada[n - i - 1];
         entrada[n - i - 1] = temp;
     }
-
+ 
     return entrada;
 }
 
@@ -44,9 +44,9 @@ int main() {
     getline(cin, entrada);
 
     if (compara(entrada)) {
-        cout << "A frase é um palíndromo" << endl;
+        cout << "A frase ï¿½ um palï¿½ndromo" << endl;
     } else {
-        cout << "A frase não é um palíndromo" << endl;
+        cout << "A frase nï¿½o ï¿½ um palï¿½ndromo" << endl;
     }
 
     return 0;
